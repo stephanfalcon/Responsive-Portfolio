@@ -1,0 +1,156 @@
+*{
+    padding:0;
+    margin:0;
+
+
+}
+body{
+    background:rgb(163, 163, 163);
+}
+#top_bar{
+    height:75px;
+    background:#ffffef;
+}
+#name{
+    float:left;
+    margin-left:15%;
+    height:75px;
+    background:#00c7bd;
+}
+h1{
+    margin:20px;
+    color:#ffffef;
+
+}
+a{
+    font-size:22px;
+    text-decoration:none;
+    color:rgb(102,102,102);
+    margin-left:10px;
+}
+nav{
+    float:right;
+    margin:25px;
+    margin-right:15%;
+}
+#main{
+    clear:both;
+    float:left;
+    margin-left:15%;
+    margin-right:15%;
+    background:#ffffef;
+    margin-top:35px;
+    padding:20px;
+    width:70%;
+    margin-bottom:5%;
+}
+img{
+    height:200px;
+    width:300px;
+    float:left;
+    margin:40px;
+    background:orange;
+}
+p{
+    padding:20px;
+    font-size: 20px;
+    color:rgb(102, 102, 102);
+}
+#about{
+    margin:20px;
+    color:rgb(102, 102, 102);
+}
+hr{
+    margin:20px;
+}
+input{
+    width:90%;
+    margin-left :40px;
+    margin-right:40px;
+}
+label{
+    margin-left :40px; 
+}
+#Message{
+
+}
+textarea{
+    width:90%;
+    margin-left :40px;
+    margin-right:40px;
+}
+h2{
+    margin-left:40px;
+    color:rgb(102,102,102);
+    margin-bottom:20px;
+}
+/* footer{
+    height:900px;
+    background:none;
+} */
+
+@media screen and (max-width: 980px){
+    #name{
+        margin-left:5%;
+    }
+    nav{
+        margin-right: 5%;
+    }
+    #main{
+        width:90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding:10px;
+    }
+
+}
+@media screen and (max-width: 768px){
+    #name{
+        margin-left:2%;
+    }
+    nav{
+        margin-right: 2%;
+    }
+    #main{
+        width:96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding:5px;
+    }
+    img{
+        height:200px;
+        width:200px;
+    }
+
+}
+@media screen and (max-width: 640px){
+    #name{
+        margin-left:2%;
+    }
+    nav{
+        margin-right: 2%;
+    }
+    #main{
+        width:100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding:0;
+    }
+    img{
+        height:200px;
+        width:200px;
+    }
+    label{
+        margin:2%;
+    }
+    input{
+        margin:2%;
+    }
+    textarea{
+        margin:2%;
+    }
+    h2{
+        margin:2%;
+    }
+
+}
